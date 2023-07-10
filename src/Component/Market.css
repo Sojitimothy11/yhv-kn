@@ -1,0 +1,81 @@
+.heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  color: #ffffff;
+  background-color: #000000;
+  height: 19.5rem;
+}
+
+.heading .description {
+  width: 60ch;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.info {
+  height: 700px;
+
+  object-fit: cover;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-image: url("https://res.cloudinary.com/dxrxekidt/image/upload/v1688918748/backgroundimage_jq7jvy.png");
+  background-position: center;
+  overflow: visible;
+}
+/* .item .count {
+  margin: 0;
+} */
+.items {
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 21rem;
+  font-size: 1rem;
+}
+.items h2 {
+  margin: 34px 0;
+}
+h2 {
+  -webkit-text-size-adjust: 100%;
+  pointer-events: initial;
+  box-sizing: border-box;
+  text-align: center;
+  word-wrap: break-word;
+  color: #ffffff !important;
+  line-height: 1.1;
+  font-family: Oswald, sans-serif !important;
+  font-weight: 400;
+  font-size: 3rem;
+}
+.count {
+  background-color: #BF3F37;
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .heading .description {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .info {
+    gap: 10px;
+  }
+}

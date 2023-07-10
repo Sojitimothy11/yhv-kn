@@ -1,0 +1,15 @@
+.content{
+  background: rgb(17, 16, 16);
+  color: #fff;
+}
+
+.testimony{
+  display: flex;
+  justify-content: center;
+  padding: 4rem 4rem;
+  gap: 2rem;
+}
+
+.image>img{
+  border-radius: 50%;
+}
