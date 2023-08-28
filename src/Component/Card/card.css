@@ -9,11 +9,9 @@
   width: 400px;
   /* max-height: 400px; */
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
 }
 
-h6{
-  color: #8d8787;
-}
 
 .images {
   margin-top: 1.5rem;
@@ -30,7 +28,7 @@ h6{
 
 .information {
   border: none;
-  padding: 0.5rem;
+  padding: 0.6rem;
 }
 
 .description{
@@ -43,3 +41,11 @@ h6{
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
+p{
+  white-space: pre-wrap; 
+  overflow-wrap: break-word;
+}
+button{color: #FF8000;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;}

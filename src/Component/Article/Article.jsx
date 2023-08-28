@@ -1,5 +1,5 @@
 import React from 'react'
-import data from './data'
+import data from '../Data/data'
 import { useParams,Link} from 'react-router-dom'
 import './article.css'
 
@@ -19,7 +19,7 @@ const Article = () => {
       <p className='content'>{allPost.content}</p>
     </div>
     <div>
-     <h6><Link to={`/.`}>Back</Link></h6> 
+     <button><Link to={`/.`}>Back</Link></button> 
       </div>
 
     </div>

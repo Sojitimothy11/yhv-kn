@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
-import Blog from './Blog'
+import Blog from '../Blog/Blog'
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container">
-      <a className="navbar-brand" href="#"><img src={'https://res.cloudinary.com/dxrxekidt/image/upload/v1688846476/logo_200x200_t4gvby.png'} width='40px'/></a>
+      <Link to="Home" className="navbar-brand" href="#"><img src={'https://res.cloudinary.com/dxrxekidt/image/upload/v1688846476/logo_200x200_t4gvby.png'} width='40px'/></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>

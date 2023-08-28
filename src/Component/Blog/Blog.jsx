@@ -1,7 +1,7 @@
 
-import Card from "./Card";
+import Card from "../Card/Card";
 import './Blog.css'
-import data from "./data";
+import data from "../Data/data";
 
 
 function Blog() {

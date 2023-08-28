@@ -1,13 +1,13 @@
 
 import './App.css';
-import Navbar from './Component/Navbar';
+import Navbar from './Component/Navbar/Navbar';
 import {Routes,Route} from 'react-router-dom'
-import About from './Component/About'
-import Home from './Component/Home';
-import Blog from './Component/Blog';
-import Carousel from './Component/Carousel'
-import Market from './Component/Market';
-import Article from './Component/Article';
+import About from './Component/About/About'
+import Home from './Component/Home/Home';
+import Blog from './Component/Blog/Blog';
+import Carousel from './Component/Carousel/Carousel'
+import Market from './Component/Market/Market';
+import Article from './Component/Article/Article';
 
 
 function App() {
